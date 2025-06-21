@@ -1,0 +1,31 @@
+{
+    "name": "Tiny Lang Dev Container",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-vscode.cmake-tools",
+                "konicy.conan-extension",
+                "ms-azuretools.vscode-containers",
+                "ms-azuretools.vscode-docker",
+                "cschlosser.doxdocgen",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "ms-python.python",
+                "ms-python.debugpy",
+                "RReverser.llvm",
+                "revng.llvm-ir",
+                "ms-vscode-remote.vscode-remote-extensionpack",
+                "coder.coder-remote"
+            ]
+        }
+    },
+    "postCreateCommand": "",
+    "remoteUser": "dev"
+}
